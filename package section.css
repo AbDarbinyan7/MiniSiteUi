@@ -1,0 +1,194 @@
+.package-section {
+    /* max-width: 900px;
+    width: 100vw;
+    margin: 0 auto; */
+    padding: 100px 0;
+}
+
+.package-section-title {
+    font-size: 48px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.editions {
+    width: 280px;
+    height: 35px;
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+    margin: 50px auto;
+    border: 1px solid #cccccc;
+    position: relative;
+}
+
+.edition-midle-or {
+    position: absolute;
+    top: 20%;
+    left: 46%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #4ca368;
+    color: #fff;
+    font-size: 10px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editions-left-button {
+    color: #333333;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+    width: 100%;
+    border: none;
+    background: #fff;
+    transition: 0.5s;
+}
+
+.editions-right-button {
+    width: 100%;
+    font-size: 12px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Roboto";
+    border: none;
+    background: #fff;
+    transition: 0.5s;
+}
+
+.editions button:focus {
+    background: #5db442;
+    color: #fff;
+}
+
+.package-section-windows {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 280px);
+    grid-gap: 40px;
+    justify-content: center;
+}
+
+.package-section-window {
+    border: 1px solid #ececec;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-bottom: none;
+}
+
+.window-small-border {
+    position: absolute;
+    top: 0;
+    width: 80px;
+    height: 3px;
+    background: #cbcbcb;
+}
+
+.package-section-window-title {
+    font-size: 14px;
+    color: #333333;
+    font-weight: 500;
+    font-family: "Roboto";
+    padding: 25px;
+}
+
+.money-value-raound-fr {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.money-value-line {
+    width: 100%;
+    height: 1px;
+    background: #ececec;
+    flex: 1;
+}
+
+.money-value-round {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    background-color: #ffffff;
+    border: 1px solid #5db442;
+    box-shadow: 0px 0px 3px 1px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.money-value {
+    font-size: 23px;
+    color: #333333;
+    font-weight: 500;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.money-value-week {
+    font-size: 10px;
+    color: #777777;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+
+.money-value-links {
+    margin: 40px 0;
+}
+
+.money-value-link {
+    font-size: 15px;
+    color: rgb(119, 119, 119);
+    font-family: "Roboto";
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.money-value-link i {
+    margin-right: 10px;
+}
+
+.difficult {
+    color: green;
+}
+
+.package-section-window button {
+    width: 125px;
+    height: 34px;
+    border-radius: 17px;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    font-size: 10px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+    margin-bottom: 40px;
+    transition: 0.5s;
+}
+
+.package-section-window:hover .window-small-border {
+    background: #5db442;
+}
+
+.package-section-window:hover .free_now_button {
+    background: #5db442;
+    color: #ffffff;
+}

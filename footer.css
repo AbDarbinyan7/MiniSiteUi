@@ -1,0 +1,89 @@
+footer {
+    background: #efefef;
+    width: 100%;
+}
+
+.footer-windows {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    padding: 70px 0 50px;
+    font-family: "Roboto";
+}
+
+.footer-title {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Roboto";
+    padding-bottom: 30px;
+}
+
+.footer_input_button {
+    display: flex;
+    width: 330px;
+    height: 45px;
+    margin-top: 20px;
+}
+
+.footer_input_button input {
+    widows: 100%;
+    background: #ffff;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.footer_input_button button {
+    width: 57px;
+    background: #5db442;
+    border: none;
+    color: #ffff;
+    transition: 0.5s;
+}
+
+.footer_input_button button:hover {
+    background: #ffff;
+    color: #5db442;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #333333;
+    font-weight: 300;
+    font-family: "Roboto";
+}
+
+.under-footer_winddows-section {
+    background: #efefef;
+    border-top: 1px solid #e1e2e3;
+}
+
+.under-footer-windows {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.under-footer-windows-title {
+    font-size: 20px;
+    color: #636666;
+    font-family: "Sans serif";
+}
+
+.under-footer-windows-right-text {
+    font-size: 11px;
+    line-height: 17px;
+    color: #777777;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: right;
+}

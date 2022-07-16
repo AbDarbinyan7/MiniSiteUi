@@ -1,0 +1,10 @@
+.community-sign-up-section {
+    width: 100%;
+    height: 661px;
+    background-image: url(./Rectangle\ 3\ copy.png), url(./Layer\ 5.png), url(./Rectangle\ 3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

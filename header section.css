@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.header-s_and_c-block-container {
+    background: #282828;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+.header-socials_and_contacts {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    color: white;
+}
+
+.header-socials {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.header-contacts {
+    display: flex;
+}
+
+.header-contacts i {
+    margin-right: 10px;
+}
+
+.header-contacts a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #fefefe;
+    font-weight: 300;
+    font-family: "Roboto";
+}
+
+.contact-number {
+    margin-right: 30px;
+}
+
+.nav-component{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    align-items: center;
+}
+
+nav p {
+    font-size: 30px;
+    color: #636666;
+    font-family: sans-serif;
+}
+
+.links_and_sign-in {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    align-items: center;
+}
+
+.links_and_sign-in a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 600;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.links_and_sign-in button {
+    width: 96px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    border: 1px solid #5db442;
+    font-size: 12px;
+    color: #5db442;
+    font-weight: 500;
+    font-family: "Roboto";
+    text-align: centear;
+    transition: 0.5s;
+}
+
+.links_and_sign-in button:hover {
+    background: #5db442;
+    color: #ffffff;
+}

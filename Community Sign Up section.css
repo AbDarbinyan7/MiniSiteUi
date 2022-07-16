@@ -1,0 +1,88 @@
+
+
+.community-sign-up-section-title {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Roboto";
+    padding-top: 100px;
+}
+
+.sign_up-process {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 50px auto;
+    padding: 40px 160px 40px 260px;
+}
+
+.sign_up-process-title {
+    font-size: 26px;
+    color: #5db442;
+    font-weight: 250;
+    font-family: "Roboto";
+    padding: 20px 0 10px;
+}
+
+.sign_up-process-text {
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Roboto";
+}
+
+.sign_up-process i {
+    color: #ffffff;
+}
+
+.sign_up-process-li {
+    position: relative;
+}
+
+#sign_up_icon {
+    position: absolute;
+    top: 20%;
+    left: -40%;
+    color: #5db442;
+}
+
+.chevrons {
+    display: flex;
+    flex-direction: column;
+}
+
+.community-sign-up-section-links-windows {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 80px;
+}
+
+.community-sign-up-section-window {
+    text-align: center;
+
+}
+
+.community-sign-up-section-window a {
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-decoration: none;
+}
+
+.sign-up-section-window-round {
+    width: 46px;
+    height: 46px;
+    border-radius: 23px;
+    background-color: #5db442;
+    margin: 10px auto;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.sign-up-section-window-round:hover {
+    background: #ffffff;
+    color: #5db442;
+}

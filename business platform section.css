@@ -1,0 +1,76 @@
+.business-platform-section {
+    padding: 100px 0;
+    background: #fcfcfc;
+}
+
+.business-platform-section-title {
+    font-size: 48px;
+    color: #000000;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: center;
+    padding: 0 200px;
+}
+
+.business-platform-windows {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.business-platform-window {
+    box-shadow: 1px 1px 10px 5px rgb(240, 240, 240);
+    background-color: #ffffff;
+    padding: 40px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.business-platform-window i {
+    color: #5db442;
+}
+
+.business-platform-window:hover i {
+    color: #ffffff;
+}
+
+.business-platform-window:hover {
+    background: #5db442;
+}
+
+.business-platform-window:hover .platform-window-title {
+    color: #ffffff;
+}
+
+.business-platform-window:hover .platform-window-text {
+    color: #ffffff;
+}
+
+.platform-window-icon-underline {
+    width: 70px;
+    height: 2px;
+    background-color: #ececec;
+    margin: 20px 0;
+}
+
+.platform-window-title {
+    font-size: 16px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Roboto";
+    white-space: nowrap;
+    padding-bottom: 30px;
+}
+
+.platform-window-text {
+    font-size: 12px;
+    color: #777777;
+    line-height: 22px;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: center;
+}
